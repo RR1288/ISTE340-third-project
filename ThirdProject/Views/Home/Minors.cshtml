@@ -1,0 +1,60 @@
+﻿@model ThirdProject.Models.MinorsModel
+
+
+@{
+    ViewData["Title"] = Model.pageTitle;
+}
+
+<h1>@Model.pageTitle</h1>
+
+
+
+<!-- Minor -->
+@foreach(var minor in Model.UgMinors)
+{
+    <div class="minor card mb-5 pt-3 px-5">
+        <div class="card-body">
+            <h6 class="card-title">@minor.name</h6>
+            <div class="card-subtitle mb-2 text-muted">@minor.title</div>
+            <div class="card-text">@minor.description</div>
+
+            <!-- Courses -->
+            <div class="courses-card">
+                @foreach (var course in minor.courses)
+                {
+                    <a class="card1 course-link" href="javascript:void(0);" data-course-id="@course">
+                        <p>@course</p>
+
+                        <div class="go-corner" href="javascript:void(0);">
+                            <div class="go-arrow">
+                                →
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+
+        </div>
+    </div>
+}  
+
+
+<!-- Modal for courses -->
+<div class="modal fade" id="courseModal" tabindex="-1" aria-labelledby="courseModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 500px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="courseModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h4 id="courseModalTitle"></h4>
+                <p id="courseModalDescription"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+

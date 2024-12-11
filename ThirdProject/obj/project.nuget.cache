@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ajk4Ek1H52E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\ThirdProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rubir\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

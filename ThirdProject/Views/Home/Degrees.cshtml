@@ -1,0 +1,132 @@
+﻿@model ThirdProject.Models.DegreesModel
+
+@{
+    ViewData["Title"] = Model.pageTitle;
+}
+
+<h3>Undergraduate Degrees</h3>
+<div class="accordion mb-3" id="undergraduateAccordion">
+    @foreach (var degree in Model.undergraduate)
+    {
+        var sanitizedDegreeName = degree.degreeName.Replace(" ", "-").Replace("_", "-");
+        var headingID = "heading" + sanitizedDegreeName;
+        var collapseTarget = "#collapse" + sanitizedDegreeName;
+        var collapseID = "collapse" + sanitizedDegreeName;
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="@headingID">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="@collapseTarget" aria-expanded="false"
+                        aria-controls="@collapseID">
+                    @degree.title (@degree.degreeName.ToUpper())
+                </button>
+            </h2>
+            <div id="@collapseID" class="accordion-collapse collapse"
+                 aria-labelledby="@headingID" data-bs-parent="#undergraduateAccordion">
+                <div class="accordion-body px-5">
+                    <div class="mb-3">@degree.description</div>
+
+                    @if (degree.concentrations != null)
+                    {
+                        <h6>Concentrations</h6>
+
+                        <div class="concentrations">
+
+                        @foreach (var concentration in degree.concentrations)
+                        {
+                            
+                            <div class="card1 concentration">
+                                <p>@concentration</p>
+
+                               
+                            </div>
+
+                        }
+                        </div>
+                    }
+
+                    @if (degree.availableCertificates != null)
+                    {
+                        <h5>Available Certificates</h5>
+                        <div class="concentrations">
+
+                        @foreach (var certificate in degree.availableCertificates)
+                        {
+                            
+                            <div class="card1 concentration">
+                                <p>@certificate</p>
+
+                               
+                            </div>
+
+                        }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<h3>Graduate Degrees</h3>
+<div class="accordion mb-5" id="graduateAccordion">
+    @foreach (var degree in Model.graduate)
+    {
+        var sanitizedDegreeName = degree.degreeName.Replace(" ", "-").Replace("_", "-");
+        var headingID = "heading" + sanitizedDegreeName;
+        var collapseTarget = "#collapse" + sanitizedDegreeName;
+        var collapseID = "collapse" + sanitizedDegreeName;
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="@headingID">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="@collapseTarget" aria-expanded="false"
+                        aria-controls="@collapseID">
+                    @degree.title (@degree.degreeName.ToUpper())
+                </button>
+            </h2>
+            <div id="@collapseID" class="accordion-collapse collapse"
+                 aria-labelledby="@headingID" data-bs-parent="#graduateAccordion">
+                <div class="accordion-body px-5">
+                        <div class="mb-3">@degree.description</div>
+
+                    @if (degree.concentrations != null)
+                    {
+                        <h6>Concentrations</h6>
+                        <div class="concentrations">
+
+                        @foreach (var concentration in degree.concentrations)
+                        {
+                            
+                            <div class="card1 concentration">
+                                <p>@concentration</p>
+
+                               
+                            </div>
+
+                        }
+                        </div>
+                    }
+
+                    @if (degree.availableCertificates != null)
+                    {
+                        <h5>Available Certificates</h5>
+                        <div class="concentrations">
+
+                        @foreach (var certificate in degree.availableCertificates)
+                        {
+                            
+                            <div class="card1 concentration">
+                                            <p>@certificate</p>
+
+                               
+                            </div>
+
+                        }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

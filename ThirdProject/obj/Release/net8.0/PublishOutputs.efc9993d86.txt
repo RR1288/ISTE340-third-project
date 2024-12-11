@@ -1,0 +1,9 @@
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\ThirdProject.exe
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\.filenesting.json
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\ThirdProject.dll
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\ThirdProject.deps.json
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\ThirdProject.runtimeconfig.json
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\ThirdProject.pdb
+C:\Users\rubir\source\repos\ThirdProject\ThirdProject\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll

@@ -1,0 +1,152 @@
+﻿@model ThirdProject.Models.PeopleModel
+
+
+@{
+    ViewData["Title"] = Model.pageTitle;
+}
+
+<h1>@Model.title</h1>
+
+
+<div id="tabs">
+    <ul>
+        <li><a href="#faculty-tab">Faculty</a></li>
+        <li><a href="#staff-tab">Staff</a></li>
+    </ul>
+
+    <div id="faculty-tab">
+        <div class="people-container">
+            @foreach (var faculty in Model.faculty)
+            {
+
+            <div class="person-card">
+                <div class="person-content">
+                <!-- Back Side -->
+                <div class="back">
+                    <div class="back-content">
+                    <img src="@faculty.imagePath"
+                            alt="@faculty.name's photo"
+                            width="100" height="100" 
+                            style="border-radius: 50%;" />
+                    <strong>@faculty.name</strong>
+                    </div>
+                </div>
+
+                <!-- Front Side -->
+                <div class="front">
+                    <div class="img">
+                    <div class="circle"></div>
+                    <div class="circle" id="right"></div>
+                    <div class="circle" id="bottom"></div>
+                    </div>
+
+                    <div class="front-content">
+                    <small class="badge">@faculty.username</small>
+                    <div class="description">
+                        <div class="title">
+                        <p class="title">
+                            <strong 
+                                data-faculty='@Html.Raw(Json.Serialize(faculty))'
+                                onclick="handleOpenPersonModal(this)"
+                                style="cursor: pointer; color: white;">@faculty.name
+                            </strong>
+                        </p>
+                        </div>
+                        <p class="card-footer">
+                        <span>@faculty.title</span>
+                        <span>@faculty.tagline</span>
+                        <br />
+                        <a href="mailto:@faculty.email" class="footer-link">
+                            <button style="color: white; background: none; border: none;">
+                            <span class="material-icons">email</span>
+                            </button>
+                                            @faculty.email
+                        </a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+            }  
+        </div>
+    </div>
+
+    <div id="staff-tab">
+        <div class="people-container">
+             @foreach (var staff in Model.staff)
+                {
+
+                <div class="person-card">
+                  <div class="person-content">
+                    <!-- Back Side -->
+                    <div class="back">
+                      <div class="back-content">
+                        <img src="@staff.imagePath"
+                             alt="@staff.name's photo"
+                             width="100" height="100" 
+                             style="border-radius: 50%;" />
+                        <strong>@staff.name</strong>
+                      </div>
+                    </div>
+
+                    <!-- Front Side -->
+                    <div class="front">
+                      <div class="img">
+                        <div class="circle"></div>
+                        <div class="circle" id="right"></div>
+                        <div class="circle" id="bottom"></div>
+                      </div>
+
+                      <div class="front-content">
+                        <small class="badge">@staff.username</small>
+                        <div class="description">
+                          <div class="title">
+                            <p class="title">
+                              <strong 
+                                data-faculty='@Html.Raw(Json.Serialize(staff))'
+                                onclick="handleOpenPersonModal(this)"
+                                    style="cursor: pointer; color: white;">@staff.name
+                            </strong>
+                            </p>
+                          </div>
+                          <p class="card-footer">
+                            <span>@staff.title</span>
+                            <br />
+                            <a href="mailto:@staff.email" class="footer-link">
+                              <button style="color: white; background: none; border: none;">
+                                <span class="material-icons">email</span>
+                              </button>
+                                                @staff.email
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+                }  
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal for people -->
+<div class="modal fade" id="personModal" tabindex="-1" aria-labelledby="personModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 400px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="modalBodyContent">
+                    <!-- Modal content will be inserted here -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\home\\degrees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\home\\degrees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\home\\minors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\home\\minors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\views\\home\\employment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\views\\home\\employment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\models\\employmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\models\\employmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|c:\\users\\rubir\\source\\repos\\thirdproject\\thirdproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A02602-7AC1-4D47-9AAF-71674005C3F5}|ThirdProject\\ThirdProject.csproj|solutionrelative:thirdproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 150,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:31:40.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:31:40.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:30:47.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "People.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\People.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Home\\People.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\People.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Home\\People.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:28:57.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:27:10.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Degrees.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Degrees.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Home\\Degrees.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Degrees.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Home\\Degrees.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:27:03.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employment.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Employment.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Home\\Employment.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Employment.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Home\\Employment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T00:20:58.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmploymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Models\\EmploymentModel.cs",
+              "RelativeDocumentMoniker": "ThirdProject\\Models\\EmploymentModel.cs",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Models\\EmploymentModel.cs",
+              "RelativeToolTip": "ThirdProject\\Models\\EmploymentModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:20:30.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FooterViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\ViewComponents\\FooterViewComponent.cs",
+              "RelativeDocumentMoniker": "ThirdProject\\ViewComponents\\FooterViewComponent.cs",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\ViewComponents\\FooterViewComponent.cs",
+              "RelativeToolTip": "ThirdProject\\ViewComponents\\FooterViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:08:40.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Minors.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Minors.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Home\\Minors.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Home\\Minors.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Home\\Minors.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T04:51:58.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Program.cs",
+              "RelativeDocumentMoniker": "ThirdProject\\Program.cs",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Program.cs",
+              "RelativeToolTip": "ThirdProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T03:35:06.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ThirdProject\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ThirdProject\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAPYCAAAAAAAAAAAQwAgDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T22:08:03.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ThirdProject\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ThirdProject\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-08T21:34:01.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThirdProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rubir\\source\\repos\\ThirdProject\\ThirdProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThirdProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T01:58:24.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
